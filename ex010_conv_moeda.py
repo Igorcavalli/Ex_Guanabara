@@ -1,0 +1,8 @@
+real = float(input("Quanto dinheiro voce tem na carteira? "))
+dolar = float(5.05)
+euro = float(6.70)
+peso_arg = float(0.10)
+peso_uru = float(0.11)
+libra = float(8.4)
+print(f"Com R$ {real} reais voce pode comprar $ {real / dolar} dolares \n em Euro {real /euro} euros\n em Peso Argentino {real / peso_arg} pesos" )
+print(f"Em Peso Uruguaio {real / peso_uru} pesos \n em Libras {real / libra} libras")
